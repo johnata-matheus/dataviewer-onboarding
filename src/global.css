@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@600;700&display=swap');
+
+:root {
+  --base: #F9FAFB;
+  --white: #fff;
+  --black: #000;
+  --text: #334460;
+  --title: #111F36;
+  --border: #EFF1F3;
+}
+
+body {
+  background-color: var(--base);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--black);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-bg {
+  display: grid;
+  max-width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 60px 20px;
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+  gap: 40px;
+}
+
+h1 {
+  color: var(--title);
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: var(--title);
+  font-size: 1.375rem;
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--text);
+}
+
+span {
+  color: #000;
+}
+
+pre {
+  background: #f5f5f5;
+  padding-bottom: 1em; 
+  border: 1px solid var(--border);
+  border-radius: 5px;
+}

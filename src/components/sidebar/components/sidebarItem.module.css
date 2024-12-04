@@ -1,0 +1,24 @@
+.sidebarItem {
+  display: flex;
+  gap: 8px;
+  padding: 14px 28px;
+  align-items: center;
+  color: var(--title);
+  width: 150px;
+  background-color: var(--white);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.active {
+  background-color: var(--title);
+  color: var(--white);
+}
+
+.active {
+  color: #ffffff;
+}
+
+.active .icon {
+  filter: brightness(0) invert(1)
+}
